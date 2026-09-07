@@ -1,0 +1,80 @@
+/* ===========================
+   Main Background
+=========================== */
+
+.stApp {
+    background-color: #F4F8FB;
+}
+
+/* ===========================
+   Main Title
+=========================== */
+
+h1 {
+    color: #0B5394;
+    text-align: center;
+    font-weight: bold;
+}
+
+/* ===========================
+   Headers
+=========================== */
+
+h2, h3 {
+    color: #003366;
+}
+
+/* ===========================
+   Sidebar
+=========================== */
+
+section[data-testid="stSidebar"] {
+    background-color: #0B5394;
+}
+
+section[data-testid="stSidebar"] * {
+    color: white;
+}
+
+/* ===========================
+   Metric Cards
+=========================== */
+
+div[data-testid="metric-container"] {
+    background-color: white;
+    border-radius: 15px;
+    padding: 15px;
+    border-left: 6px solid #0B5394;
+    box-shadow: 2px 2px 8px rgba(0,0,0,0.15);
+}
+
+/* ===========================
+   Buttons
+=========================== */
+
+.stButton>button {
+    background-color: #0B5394;
+    color: white;
+    border-radius: 10px;
+    border: none;
+}
+
+.stButton>button:hover {
+    background-color: #1565C0;
+}
+
+/* ===========================
+   Success Message
+=========================== */
+
+.stAlert {
+    border-radius: 10px;
+}
+
+/* ===========================
+   Tables
+=========================== */
+
+table {
+    border-radius: 10px;
+}
